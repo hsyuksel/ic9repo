@@ -36,7 +36,7 @@ def get_chocolates():
     return jsonify(chocolates)
 
 @app.route('/secondDevChanges', methods=['GET'])
-def get_chocolates():
+def second_dev():
     return jsonify(chocolates)
 
 if __name__ == '__main__':
