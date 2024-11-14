@@ -31,13 +31,10 @@ chocolates = [
 
 ]
 
-@app.route('/chocolates', methods=['GET'])
-def get_chocolates():
-    return jsonify(chocolates)
 
-@app.route('/secondDevChangesaad', methods=['GET'])
-def second_dev():
-    return "hello world"
+@app.route('/thiswillbenewdev', methods=['GET'])
+def newdeve():
+    return "helloworld"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=80)
